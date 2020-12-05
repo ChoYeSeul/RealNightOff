@@ -1,0 +1,316 @@
+body{
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+}
+#menu{
+    text-align: center;
+}
+nav
+{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 153px;
+    background-color: black;
+    z-index: 1;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: lighter;
+}
+#nav{
+    position: -webkit-sticky; 
+    position: sticky; 
+}
+.logo{
+    position: relative;
+    align-content: center;
+    text-align : center;
+}
+#nav li{
+    float: left;
+    position: relative;
+    margin: 5px 50px;
+    padding: 0 50px;
+    text-align: center;
+    list-style: none;
+}
+#nav li a{
+    display: block;
+    font-size: 10px;
+    padding : 7px 12px;
+    text-decoration: none;
+    color: white;
+}
+#nav li:hover > a{
+    color: white;
+    margin: 10;
+    padding: 7px 12px;
+    background-color: rgb(32, 32, 32);
+    font-weight: bold;
+}
+#nav ul{
+    list-style : none;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    width: 105px;
+    text-align: center;
+    opacity: 0;
+
+}
+#nav ul li{
+    float: none;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+#nav ul a{
+    color: rgb(248, 176, 69);
+}
+#nav li:hover ul{
+    opacity: 100%;
+}
+#nav li :hover ul li {
+    height: 35px;
+    overflow: hidden;
+    padding : 0;
+}
+#footer{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+#number1{
+    text-align: left;
+    padding: 0px;
+    color: rgb(219, 121, 30);
+    font-size: 400px;
+    font-weight: bolder;
+    opacity: 100%;
+}
+#number2{
+    text-align: right;
+    padding: 40px;
+    color: rgb(219, 121, 30);
+    font-size: 400px;
+    font-weight: bolder;
+    opacity: 100%;
+}
+img{
+    display: block;
+    margin: 0 auto;  
+}
+#members{
+    margin-block-start: 8em;
+    margin-block-end: 1em;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: all 0.5s ease-in-out;
+    alt : "Index로 바로가기";
+    padding: 20px;
+}
+.box{
+    overflow: hidden;
+}
+.box #members:hover{
+    transform: scale(1.2);
+}
+.member2{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-block-start: 2em;
+    margin-block-end: 8em;
+    color: rgb(194, 194, 194);
+}
+hr{
+    width: 500px;
+}
+#hr{
+    width: 500px;
+    text-align: right;
+}
+#number1_1{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: right;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    padding: 50px;
+    margin: 20px;
+}
+#Debut{
+    text-align: right;
+    color: white;
+    font-size: 120px;
+    font-weight: bolder;
+    padding: 20px;
+    opacity: 100%;
+}
+#Debut2{
+    text-align: left;
+    color: white;
+    font-size: 120px;
+    font-weight: bolder;
+    padding: 40px;
+    opacity: 100%;
+}
+.background{
+    margin-block-start: 5em;
+    background-image: url("../img/members2.jpg");
+    background-position: center;
+    width: 1640px;
+    height: 650px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.background2{
+    margin-block-start: 5em;
+    background-image: url("../img/members3.jpg");
+    background-position: center;
+    width: 1640px;
+    height: 650px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#eaeon{
+    float: left;
+    padding: 60px;
+    left: 350px;
+    opacity: 30%;
+    transition: all 0.5s ease-in-out;
+}
+#eaeon:hover{
+    opacity: 100%;
+}
+#lee{
+    float: right;
+    padding: 60px;
+    left: 350px;
+    opacity: 30%;
+    transition: all 0.5s ease-in-out;
+}
+#lee:hover{
+    opacity: 100%;
+}
+#clear{
+clear: both;
+}
+p{
+    color: white;
+}
+table{
+    color: white;
+    border: none;
+    border-collapse: collapse;
+}
+th, td {
+    border: none;
+    padding: 10px;
+}
+#name{
+font-size: 35px;
+font-weight: bold;
+color: rgb(253, 143, 53);
+}
+#info{
+    padding: 100px;
+}
+#eaeoninfo{
+    padding: 100px;
+    float: right;
+    right: 120px;
+}
+#leeinfo{
+    padding: 100px;
+    float: left;
+    right: 120px;
+}
+.instagram{
+    text-decoration: none;
+}
+.instagram:link{color:rgb(255, 235, 51);}
+.instagram:visited{color: rgb(255, 145, 0);}
+.instagram:hover{color: yellowgreen;}
+#contact{ text-decoration: none; font-size: 18px;}
+#contact:link{color:rgb(255, 235, 51);}
+#contact:visited{color: rgb(255, 145, 0);}
+#contact:hover{color: yellowgreen;}
+#top{
+    position: fixed;
+    color: white;
+    bottom: 25px;
+    right: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  #top:link{color: white;}
+  #top:visited{color: rgb(255, 255, 255);}
+  #top:hover{color: yellowgreen;}
+  #bigbox{
+    padding: 80px;
+  }
+#bigbox::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.box1{
+    float: left;
+    margin-left: 90px;
+}
+.box1 p{
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+}
+.one{
+    overflow: hidden;
+}
+.one:hover{
+    transform: scale(1.2);
+}
+.two{
+    overflow: hidden;
+}
+.two:hover{
+    transform: scale(1.2);
+}
+.three{
+    overflow: hidden;
+}
+.three:hover{
+    transform: scale(1.2);
+}
+.four{
+    overflow: hidden;
+}
+.four:hover{
+    transform: scale(1.2);
+}
+#last{
+    padding: 300px 0px;
+    width: 100%;
+    height: 100%;
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    background-image: url(../img/background.jpg);
+    text-align: center;
+    
+}
+.small{
+    color: rgb(255, 195, 32);
+    -webkit-text-stroke: 1.3px black;
+    font-size: 60px;
+    font-family: 'Source Serif Pro', serif;
+}
+.small2{
+    font-size: 10px;
+    color: white;
+    letter-spacing: 5px;
+    line-height: 20px;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Send a Message</title>
+    <style>
+        body{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        nav
+            {
+            top: 0;
+            position: fixed;
+            width: 100%;
+            height: 153px;
+            background-color: black;
+            z-index: 1;
+            margin: 0px;
+            list-style: none;
+            text-align: center;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: lighter;
+            }
+            #nav{
+                position: -webkit-sticky; 
+                position: sticky; 
+            }
+            .logo{
+                position: relative;
+                align-content: center;
+                text-align : center;
+            }
+            #nav li{
+                float: left;
+                position: relative;
+                margin: 5px 50px;
+                padding: 0 50px;
+                text-align: center;
+                list-style: none;
+            }
+            #nav li a{
+                display: block;
+                font-size: 10px;
+                padding : 7px 12px;
+                text-decoration: none;
+                color: white;
+            }
+            #nav li:hover > a{
+                color: white;
+                margin: 10;
+                padding: 7px 12px;
+                background-color: rgb(32, 32, 32);
+                font-weight: bold;
+            }
+            #nav ul{
+                list-style : none;
+                margin: 0;
+                padding: 0;
+                left: 0;
+                width: 105px;
+                text-align: center;
+                opacity: 0;
+
+            }
+            #nav ul li{
+                float: none;
+                margin: 0;
+                padding: 0;
+                font-size: 10px;
+            }
+            #nav ul a{
+                color: rgb(94, 253, 214);
+            }
+            #nav li:hover ul{
+                opacity: 100%;
+            }
+            #nav li :hover ul li {
+                height: 35px;
+                overflow: hidden;
+                padding : 0;
+            }
+            #wrap{
+                width: 1000px;
+                margin: 0 auto;
+                padding: 200px 100px;
+            }
+            textarea{
+                resize: none;
+                width: 100%;
+                font-size: 15px;
+            }
+            #footer{
+                font-size: 10px;
+                text-align: center;
+                color: white;
+            }
+            button{
+                width: 70px;
+               height: 40px;
+            }
+            .carrot{
+                font-size: 15px;
+                padding: 300px 0px;
+            }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@900&family=Noto+Serif+KR:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=IBM+Plex+Sans:wght@200&family=Source+Serif+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id = "Menu">
+        <nav>
+            <a class = "logo" href="Index.html"><img src='../img/nightoff_mint.png' height="100px"  /></a>
+            <ul id = "nav">
+                <li><a href="./AboutNightOff.html">About Night Off</a></li>
+                <li><a href="./Takeanightoff.html">Take A Night Off</a>
+                    <ul>
+                        <li><a href="./play1.html">오늘의 날씨는</a></li>
+                        <li><a href="./play2.html">리뷰</a></li>
+                    </ul>
+                </li>
+                <li><a href="./AsAlways.html">우린 매일매일</a></li>
+                <li><a href="./WithYou.html">예쁘게 시들어 가고 싶어 너와</a></li>
+                <li><a href="./LastNight.html">Last Night</a>
+                    <ul>
+                        <li><a href="./play5.html">잠</a></li>
+                        <li><a href="./play6.html">해프닝(Happening)</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+<div id="wrap">
+        <textarea rows="30" placeholder="여기에 메세지를 남겨주세요."></textarea><br /><br />
+        <br /><br />        
+       <a class="carrot"> 당신은 당근을 좋아합니까?</a><br />
+        <input type="checkbox" id="level2" value="checkbox_2" name="checkbox_button" /><br /><br /><br />
+        <input type="text" placeholder="이름을 입력해주세요" /> <br /><br />
+        <button>send</button>
+</div>
+</body>
+<footer>
+    <div id="footer">
+            <h6>Designed by Yeseul.<br />
+            Kaywon Art&Design Univ.</h6>
+            <h4>Copyrightⓒ2019 Cho Yeseul (@132.o3) Co., Ltd. All rights reserved.</h4>
+    </div>
+</footer>
+</html>

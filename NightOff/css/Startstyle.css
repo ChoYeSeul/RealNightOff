@@ -1,0 +1,148 @@
+body{
+    height: 100%;
+    display: flex;
+    background-color: black;
+    font-family: 'Noto Serif KR', serif;
+}
+.play{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+video{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    position : fixed;
+    z-index: -100;
+    background-size: cover;
+
+}
+
+.play-text{
+    position: absolute;
+    top: 70px;
+    width: 10;
+    right: 80px;
+    font-weight: normal;
+    text-align: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    writing-mode:vertical-lr 
+}
+.play-smalltext{
+    position: absolute;
+    top: 50%;
+    width: 10;
+    right: 95px;
+    font-weight: normal;
+    text-align: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    writing-mode:vertical-lr 
+    /*letter-spacing : 0.5em;*/
+}
+.play1{
+    text-align: left;
+    left: 80px;
+    position: absolute;
+    top: 10%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 10%;
+}
+.play2{
+    position: absolute;
+    left: 80px;
+    top: 15%;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-size: 10%;
+    text-align: left;
+}
+.play3{
+    position: absolute;
+    left: 80px;
+    top: 20%;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-size: 10%;
+    text-align: left;
+}
+.play4{
+    position: absolute;
+    left: 80px;
+    bottom: 10%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 10%;
+    text-align: left;
+}
+.play5{
+    position: absolute;
+    left: 80px;
+    bottom: 15%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 10%;
+    text-align: left;
+}
+.play6{
+    position: absolute;
+    left: 80px;
+    bottom: 20%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 10%;
+    text-align: left;
+}
+.play7{
+    position: absolute;
+    left: 80px;
+    bottom: 25%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 10%;
+    text-align: left;
+}
+hr{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 47%;
+    left: 140px;
+}
+img{
+    position: absolute;
+    top: 41%;
+    margin: 20px;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: all 0.5s ease-in-out;
+    alt : "Index로 바로가기";
+}
+.box{
+    overflow: hidden;
+}
+.box img:hover{
+    transform: scale(1.5);
+}
+#contact{ text-decoration: none; font-size: 18px;}
+#contact:link{color:rgb(255, 235, 51);}
+#contact:visited{color: rgb(255, 145, 0);}
+#contact:hover{color: yellowgreen;}
+#top{
+    position: fixed;
+    color: white;
+    bottom: 25px;
+    right: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  #top:link{color: white;}
+  #top:visited{color: rgb(255, 255, 255);}
+  #top:hover{color: yellowgreen;}
+
+
+

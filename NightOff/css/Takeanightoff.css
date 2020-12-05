@@ -1,0 +1,213 @@
+body{
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+nav
+{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 153px;
+    background-color: black;
+    z-index: 1;
+    margin: 0%;
+    list-style: none;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: lighter;
+    }
+.min{
+    min-width: 50px;
+}
+.logo{
+    position: relative;
+    align-content: center;
+    text-align : center;
+}
+#nav li{
+    float: left;
+    position: relative;
+    margin: 5px 50px;
+    padding: 0 50px;
+    text-align: center;
+    list-style: none;
+}
+#nav li a{
+    display: block;
+    font-size: 10px;
+    padding : 7px 12px;
+    text-decoration: none;
+    color: white;
+}
+#nav li:hover > a{
+    color: white;
+    margin: 10;
+    padding: 7px 12px;
+    background-color: rgb(32, 32, 32);
+    font-weight: bold;
+}
+#nav ul{
+    list-style : none;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    width: 105px;
+    text-align: center;
+    opacity: 0;
+
+}
+#nav ul li{
+    float: none;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+#nav ul a{
+    color: rgb(194, 140, 255);
+}
+#nav li:hover ul{
+    opacity: 100%;
+}
+#nav li :hover ul li {
+    height: 35px;
+    overflow: hidden;
+    padding : 0;
+}
+#elbum{
+    padding: 180px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p{
+    font-size: 23px;
+    padding: 120px;
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    color: rgb(207, 173, 58);
+    -webkit-text-stroke: 0.5px black;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.elbuminfo{
+    font-size: 12px;
+    padding: 200px;
+    text-align: center;
+    line-height: 30px;
+}
+#clear{clear: both;}
+.background{
+    margin-block-start: 5em;
+    background-image: url("../img/1.jpg");
+    background-position: center;
+    width: 1600px;
+    height: 650px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.background2{
+    margin-block-start: 5em;
+    background-image: url("../img/play1_2.jpg");
+    background-size: 1200px;
+    background-position: center;
+    width: 1600px;
+    height: 650px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.background3{
+    margin-block-start: 5em;
+    background-image: url("../img/play2_3.jpg");
+    background-size: 1200px;
+    background-position: center;
+    width: 1600px;
+    height: 650px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#footer{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+#play1{
+padding: 10% 120px;
+float: left;
+left: 150px;
+opacity: 80%;
+transition: all 0.5s ease-in-out;
+}
+#play1:hover{
+    opacity: 100%;
+}
+.subject1{
+    float: right;
+    margin: 30px 120px;
+    font-size: 50px;
+    padding: 120px 0px;
+}
+hr{
+    width: 20%;
+    color: white;
+}
+.table{
+float: right;
+padding: 150px 300px;
+margin: 0;
+font-size: 25x;
+}
+th{
+    color: rgb(194, 140, 255);
+}
+.wrap1_3Text{
+    text-align: center;
+    padding: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color: rgb(243, 231, 62);
+    text-shadow: 5px 5px 10px rgb(32, 32, 32);
+    line-height: 30px;
+    font-size: 13px;
+}
+.wrap2_3Text{
+    text-align: center;
+    padding: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color: rgb(243, 231, 62);
+    text-shadow: 5px 5px 10px rgb(32, 32, 32);
+    line-height: 30px;
+    font-size: 13px;
+}
+.button{ 
+    background-color: black;
+    font-size: 13px;
+    text-decoration: none;
+    }
+.button:link{color:rgb(255, 235, 51);}
+.button:visited{color: rgb(255, 145, 0);}
+.button:hover{color: yellowgreen;}
+
+#contact{ text-decoration: none; font-size: 18px;}
+#contact:link{color:rgb(255, 235, 51);}
+#contact:visited{color: rgb(255, 145, 0);}
+#contact:hover{color: yellowgreen;}
+#top{
+    position: fixed;
+    color: white;
+    bottom: 25px;
+    right: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  #top:link{color: white;}
+  #top:visited{color: rgb(255, 255, 255);}
+  #top:hover{color: yellowgreen;}
+
